@@ -1,0 +1,21 @@
+# Created at 2023-10-28T16:44:06.411
+org.apache.maven.surefire.group.parse.TokenMgrError: Lexical error at line 1, column 13.  Encountered: '32' (32), after prefix "|"
+	at org.apache.maven.surefire.group.parse.GroupMatcherParserTokenManager.getNextToken(GroupMatcherParserTokenManager.java:402)
+	at org.apache.maven.surefire.group.parse.GroupMatcherParser.jj_scan_token(GroupMatcherParser.java:563)
+	at org.apache.maven.surefire.group.parse.GroupMatcherParser.jj_3_7(GroupMatcherParser.java:284)
+	at org.apache.maven.surefire.group.parse.GroupMatcherParser.jj_3R_op_180_1_3(GroupMatcherParser.java:299)
+	at org.apache.maven.surefire.group.parse.GroupMatcherParser.jj_3_3(GroupMatcherParser.java:290)
+	at org.apache.maven.surefire.group.parse.GroupMatcherParser.jj_3R_igroup_118_3_1(GroupMatcherParser.java:335)
+	at org.apache.maven.surefire.group.parse.GroupMatcherParser.jj_3_1(GroupMatcherParser.java:353)
+	at org.apache.maven.surefire.group.parse.GroupMatcherParser.jj_2_1(GroupMatcherParser.java:175)
+	at org.apache.maven.surefire.group.parse.GroupMatcherParser.expr(GroupMatcherParser.java:62)
+	at org.apache.maven.surefire.group.parse.GroupMatcherParser.parse(GroupMatcherParser.java:56)
+	at org.apache.maven.surefire.common.junit48.FilterFactory.createGroupFilter(FilterFactory.java:68)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.createJUnit48Filter(JUnitCoreProvider.java:242)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+
